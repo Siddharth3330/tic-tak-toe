@@ -106,7 +106,8 @@ function checkall()
 {
 	for (var i = 0; i <3; i++) {
 		for (var j = 0; j < 3; i++) {
-			board[i][j]===0;
+			if(board[i][j]===0)
+        return true;
 		}
 	}
 	rematch();
@@ -114,9 +115,9 @@ function checkall()
 
 function rematch()
 {
-	setTimer(function({
+	setTimer(function(){
 		location.reload()
-	}),3000);
+	},3000);
 };
 
 // if(player1===true){playerSet=1}else playerSet=2;win=horitest(playerSet);if(win===player1){message.textContent=playerSet+"wins";}
