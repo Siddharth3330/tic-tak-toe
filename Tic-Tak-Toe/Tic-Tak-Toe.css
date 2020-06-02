@@ -1,0 +1,20 @@
+.player1{
+	border:solid blue 2px;
+	background-color :red;
+}
+.player2{
+	border:solid purple solid 2px;
+	background-color: blue;
+}
+.btn1{
+	height:80px;
+    width:80px;
+    background-color: orange;
+}
+body{
+	background-image: url("dark-paths.png");: 
+}
+h1,h2{
+	text-align: center;
+	color :#ffff11;
+}
